@@ -182,7 +182,8 @@ and your Manifest should look something like this
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".SplashActivity">
+        <activity android:name=".SplashActivity"
+                  android:theme = "@style/NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -196,6 +197,6 @@ and your Manifest should look something like this
 ```
 
 
-That is it. You can clone the project using Android Studio and have fun.
-Dont forget to follow me for more projects.
+That is it. You can clone the project using Android Studio and have fun. 
+Dont forget to like and follow me for more projects.
 
